@@ -1,0 +1,12 @@
+﻿<meta>
+  <info name="Rumble" description="The Rumble Gamemode" author="MeBorno" version="1.0" shadowcopy="true" />
+
+  <assembly ref="Newtonsoft.Json.dll"/>
+
+  <script src="RumbleGameMode.cs" type="server" lang="csharp" />
+  <script src="RumbleCommands.cs" type="server" lang="csharp" />
+  
+  <!-- Datastorage -->
+  <script src="data/IRepository.cs" type="server" lang="csharp" />
+  <script src="data/JSONRepository.cs" type="server" lang="csharp" />
+</meta>
